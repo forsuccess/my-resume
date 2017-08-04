@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <title>Trditional Resume</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="StyleSheet" href="css/reset.css"/>
+    <link type="text/css" rel="StyleSheet" href="css/main.css"/>
+    <style type="text/css">
+        body{
+            background-image:url(images/bg.png);
+        }
+        .item-title{
+            width:100px;
+            padding:4px;
+            line-height: 1.8;
+        }
+        .item-content{
+            padding:4px;
+            line-height: 1.8;
+        }
+        li{
+            padding:7px 0px;
+        }
+        li::before{
+            content:url(./images/icons/yes.png);
+            padding-right:6px;
+            vertical-align: middle;
+        }
+        .item-wrap{
+            display:-moz-box;
+            display:-webkit-box;
+            display:box;
+            padding:6px 0px;
+            border-bottom:solid 1px #aaa;
+            margin-bottom:6px;
+            width: 100%;
+        }
+        .item-box-left{
+            width: 100px;
+        }
+        .item-box-right{
+            width: 700px;
+        }
+        .item-title-hl{
+            font-size:18px;
+            padding:4px;
+            background-color: #ddd;
+            border-bottom:solid 2px #ccc;
+        }
+        .project-title{
+            font-size:18px;
+            line-height: 1.8;
+            padding:4px;
+        }
+        .project-sub-title{
+            padding:4px;
+            line-height: 1.8;
+            width:70px;
+        }
+        #goTop{
+            position:fixed;
+            right:100px;
+            bottom:100px;
+            background-image:url(images/icons/top.png);
+            width:32px;
+            height:32px;
+            -webkit-box-reflect: below 0px -webkit-gradient(linear, center top, center bottom, from(transparent),color-stop(0.2, transparent), to(white));
+            opacity: 0.5;
+        }
+        .reflect{
+            background-image:url(images/icons/top.png);
+            width:32px;
+            height:32px;
+            -webkit-transform: scaleY(-1);
+            -moz-transform: scaleY(-1);
+            -ms-transform: scaleY(-1);
+            transform: scaleY(-1);
+            filter:alpha(opacity='80');
+            opacity: 0.8;
+        }
+        .shadow{
+            position: relative;
+            top:-32px;
+            left:0px;
+            height:32px;
+            width:32px;
+            background-image: -moz-linear-gradient(center bottom, rgb(227,227,227) 30%, rgba(255,255,255,0) 100%);
+            background-image: -webkit-gradient(linear, center bottom, center top, color-stop(0.3, rgb(227,227,227)), color-stop(0.7, rgba(255,255,255,0)));
+            filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColor=#e8e8e8, EndColorStr=#ffffff);
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body style="margin:0px auto;width:800px;">
+<header>
+
+    <section style="padding:6px 0px;">
+        <hr/>
+    </section>
+</header>
+<article style="padding:10px 0px;">
+    <section>
+        <table style="width:100%">
+            <tr>
+                <td class="item-title">求职意向：</td>
+                <td class="item-content">Web工程师</td>
+                <td class="item-title">英语水平：</td>
+                <td class="item-content">CET-6</td>
+            </tr>
+            <tr>
+                <td class="item-title">电话号码：</td>
+                <td class="item-content">13269316295</td>
+                <td class="item-title">邮箱：</td>
+                <td class="item-content">
+                    <a title="给我发邮件" href="mailto:474544358@qq.com">474544358@qq.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="item-title">性别：</td>
+                <td class="item-content">男</td>
+                <td class="item-title">github:</td>
+                <td class="item-content">
+                    <a title="看看我的github" href="https://github.com/forsuccess" target="_blank">https://github.com/forsuccess</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="item-title">博客:</td>
+                <td class="item-content" colspan="3">
+                    <a title="看看我的博客" href="http://www.jianshu.com/u/bcc377273ff2" target="_blank">http://www.jianshu.com/u/bcc377273ff2</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section style="margin:4px 0px; height:2px; background-color:#888;"></section>
+    <section class="item-wrap">
+        <section class="item-box-left">
+            <span class="item-title-hl">专业技能</span>
+        </section>
+        <section class="item-box-right">
+            <ul>
+                <li>掌握DIV+CSS页面架构和布局方式，能够熟练应用HTML/CSS/JavaScript技术，开发符合W3C标准的网站前端页面</li>
+                <li>熟悉W3C标准，对表现与数据分离，Web语义化有了解</li>
+                <li>熟悉jquery和ajax,实现网页的页面交互和动态效果</li>
+                <li>熟悉react和vue</li>
+                <li>熟悉前端工程化，使用过webpack</li>
+                <li>对主流浏览器的兼容性有一定了解</li>
+                <li>了解node的几个模块，并做过相关工具</li>
+            </ul>
+        </section>
+    </section>
+    <section class="item-wrap">
+        <section class="item-box-left">
+            <span class="item-title-hl">教育经历</span>
+        </section>
+        <section class="item-box-right" style="margin-bottom:10px;">
+            <table>
+                <tr>
+                    <td style="width:150px;">2012.09~2016.06</td>
+                    <td style="width:250px;">重庆大学</td>
+                    <td>计算机科学与技术</td>
+                </tr>
+            </table>
+        </section>
+    </section>
+
+    <section class="item-wrap">
+        <section class="item-box-left">
+            <span class="item-title-hl">项目经验</span>
+        </section>
+        <section class="item-box-right">
+            <section>
+                <table style="margin-bottom:10px; border-bottom:dashed 1px #ccc;">
+                    <tr>
+                        <td colspan="2" class="project-title">······react-todolist备忘录······</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目描述:</td>
+                        <td class="item-content">用户在输入框输入要记录的条目，回车即可保存到下面未完成任务分组，点击前面的标记框可以把项目转移到已完成选项，最后用户还可以删除条目</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">使用技术:</td>
+                        <td class="item-content">react、leancloud,localstorage</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目收获:</td>
+                        <td class="item-content">
+                            懂得了react的声明周期，父子组件的数据传递，以及setState调用后如何进行渲染
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">预览地址:</td>
+                        <td class="item-content">
+                            <a title="" href="https://forsuccess.github.io/react-final/build/index.html" target="_blank">https://forsuccess.github.io/react-final/build/index.html</a>
+                        </td>
+                    </tr>
+                </table>
+                <table style="margin-bottom:10px; border-bottom:dashed 1px #ccc;">
+                    <tr>
+                        <td colspan="2" class="project-title">······vue-简历编辑器······</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目描述:</td>
+                        <td class="item-content">
+                           项目分为编辑栏和预览栏，用户在编辑栏增删自己条目，右边预览栏会同步更新数据，最后点击预览按钮可以查看完成的简历
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">使用技术:</td>
+                        <td class="item-content">sass,vue-cli,svg-icon,vuex,localstorage</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目收获:</td>
+                        <td class="item-content">
+                            （1）把所有数据放到store里，让store管理state
+                             (2)mutation执行具体事件，action只起到通知mutation的作用
+                            （3）每个功能都是一个模块，学会封装解耦，以及模块间数据传递
+                             （4）每个模块的构造，每个属性的作用
+                            <br/>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">预览地址:</td>
+                        <td class="item-content">
+                            <a title="" href="https://forsuccess.github.io/resume-final/dist/#/" target="_blank">https://forsuccess.github.io/resume-final/dist/#/</a>
+                        </td>
+                    </tr>
+                </table>
+                <table style="margin-bottom:10px; border-bottom:dashed 1px #ccc;">
+                    <tr>
+                        <td colspan="2" class="project-title">······nodejs爬虫-爬取链家成交页面······</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目描述:</td>
+                        <td class="item-content">
+                            利用node的几个模块，向目标URL链家成交信息页面发送请求拿回页面的html代码，然后用cheerio解析拿到相应的房屋信息经过布局返回给客户端
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">使用技术:</td>
+                        <td class="item-content">node模块，express，superagent，cheerio</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目收获:</td>
+                        <td class="item-content">
+                          对node模块认识更加深刻，对dom解析更加深刻
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">预览地址:</td>
+                        <td class="item-content">
+                            <a title="看看我的github" href="https://github.com/forsuccess/spider" target="_blank">https://github.com/forsuccess/spider</a>
+                        </td>
+                    </tr>
+                </table>
+                <table style="margin-bottom:10px; border-bottom:dashed 1px #ccc;">
+                    <tr>
+                        <td colspan="2" class="project-title">······nodejs翻译······</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目描述:</td>
+                        <td class="item-content">在控制台可以和机器人以问答的方式聊天，机器人会对你的问题进行相应回答</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">使用技术:</td>
+                        <td class="item-content">node模块，commander，superagent，cli-table2</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目收获:</td>
+                        <td class="item-content">
+                            熟悉了node的一些常见请求模块，知道如何发布npm模块，安装npm模块
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">github预览地址:</td>
+                        <td class="item-content">
+                            <a title="看看我的github" href="https://github.com/forsuccess/nodejs-translate" target="_blank">https://github.com/forsuccess/nodejs-translate</a>
+                        </td>
+                    </tr>
+                </table>
+                <table style="margin-bottom:10px; border-bottom:dashed 1px #ccc;">
+                    <tr>
+                        <td colspan="2" class="project-title">······jquery天气预报······</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目描述:</td>
+                        <td class="item-content">用户输入目标城市，页面就会显示该城市近3天以来天气</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">使用技术:</td>
+                        <td class="item-content">Jquery,Ajax,Jsonp</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目收获:</td>
+                        <td class="item-content">
+                            知道如何利用ajax给后台接口api发送请求，以及拿到数据后如何根据页面dom结构解析处理
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">预览地址:</td>
+                        <td class="item-content">
+                            <a title="看看我的github" href="https://forsuccess.github.io/weather-report/" target="_blank">https://forsuccess.github.io/weather-report/</a>
+                        </td>
+                    </tr>
+                </table>
+                <table style="margin-bottom:10px; border-bottom:dashed 1px #ccc;">
+                    <tr>
+                        <td colspan="2" class="project-title">······静态页面······</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目描述:</td>
+                        <td class="item-content">一个宣传电影的网站，用到了一些网站常用效果</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">使用技术:</td>
+                        <td class="item-content">轮播，加载更多，回到顶部</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目收获:</td>
+                        <td class="item-content">
+                           了解到完成一个完整页面的制作流程，尤其是布局方面知识，其中用到了许多前端常见效果，为页面增色不少
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">预览地址:</td>
+                        <td class="item-content">
+                            <a title="" href="https://forsuccess.github.io/blog/" target="_blank">https://forsuccess.github.io/blog/</a>
+                        </td>
+                    </tr>
+                </table>
+                <table style="margin-bottom:10px;">
+                    <tr>
+                        <td colspan="2" class="project-title">······组件库······</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目描述:</td>
+                        <td class="item-content">懒加载组件，轮播组件，模态框组件</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">使用技术:</td>
+                        <td class="item-content">面向对象，jquery</td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">项目收获:</td>
+                        <td class="item-content">
+                            学会运用面向对象的思想去封装一个组件
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="project-sub-title" valign="top">预览地址:</td>
+                        <td class="item-content">
+                            <a title="看看我的github" href="https://forsuccess.github.io/component/lunbo.html" target="_blank">https://forsuccess.github.io/component/lunbo.html</a>
+                            <a title="看看我的github" href="https://forsuccess.github.io/component/modal.html" target="_blank">https://forsuccess.github.io/component/modal.html</a>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </section>
+    <section class="item-wrap">
+        <section class="item-box-left">
+            <span class="item-title-hl">自我评价</span>
+        </section>
+        <section class="item-box-right" style="margin-bottom:10px;">
+            <ul>
+                <li>性格乐观开朗，感染力强，能够带动团队氛围</li>
+                <li>对技术感兴趣，广泛关注行业知识、动向，喜欢钻研技术原理</li>
+                <li>表达能力强，热衷于技术分享，在公司负责初级技术培训工作</li>
+            </ul>
+        </section>
+    </section>
+
+
+</article>
+
+<script type="text/javascript">
+    $(function(){
+        $('#wrap').on('click', function(event) {
+            var obj=document.body.scrollTop>0? document.body:document.documentElement;
+            $(obj).animate({"scrollTop":0}, 1000);
+            $(this).animate({"opacity":0.5}, 1000);
+        }).on('mouseover', function(event) {
+            $(this).css('opacity',1);
+        }).on('mouseout',function(event) {
+            $(this).css('opacity',0.5);
+        });
+    });
+    $(document).scroll(function(event) {
+        var goTop=$('#wrap');
+        var scrollTop=document.body.scrollTop || document.documentElement.scrollTop || 0;
+        if(scrollTop>0){
+            if(goTop.css('display')=='none'){
+                $('#wrap').fadeIn(500);
+            }
+        }else{
+            if(goTop.css('display')!='none'){
+                $('#wrap').fadeOut(500);
+            }
+        }
+    });
+</script>
+</body>
+</html>
