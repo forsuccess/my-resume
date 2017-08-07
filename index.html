@@ -102,14 +102,15 @@
     <section>
         <table style="width:100%">
             <tr>
+                <td class="item-title">姓名：</td>
+                <td class="item-content">李永州</td>
                 <td class="item-title">求职意向：</td>
                 <td class="item-content">Web前端开发</td>
-                <td class="item-title">英语水平：</td>
-                <td class="item-content">CET-6</td>
             </tr>
             <tr>
-                <td class="item-title">电话号码：</td>
-                <td class="item-content">13269316295</td>
+                <td class="item-title">英语水平：</td>
+                <td class="item-content">CET-6</td>
+
                 <td class="item-title">邮箱：</td>
                 <td class="item-content">
                     <a title="给我发邮件" href="mailto:474544358@qq.com">474544358@qq.com</a>
@@ -124,10 +125,13 @@
                 </td>
             </tr>
             <tr>
+                <td class="item-title">电话：</td>
+                <td class="item-content">13269316295</td>
                 <td class="item-title">博客:</td>
                 <td class="item-content" colspan="3">
                     <a title="看看我的博客" href="http://www.jianshu.com/u/bcc377273ff2" target="_blank">http://www.jianshu.com/u/bcc377273ff2</a>
                 </td>
+
             </tr>
         </table>
     </section>
@@ -142,9 +146,10 @@
                 <li>熟悉W3C标准，对表现与数据分离，Web语义化有了解</li>
                 <li>熟悉jquery和ajax,实现网页的页面交互和动态效果</li>
                 <li>熟悉react和vue</li>
-                <li>熟悉前端工程化，使用过webpack</li>
+                <li>熟悉前端工程化，有webpack使用经验</li>
+                <li>有node模块使用经验，利用模块做过相关工具</li>
                 <li>对主流浏览器的兼容性有一定了解</li>
-                <li>了解node的几个模块，并做过相关工具</li>
+
             </ul>
         </section>
     </section>
@@ -155,7 +160,7 @@
         <section class="item-box-right" style="margin-bottom:10px;">
             <table>
                 <tr>
-                    <td style="width:150px;">2012.09~2016.06</td>
+                    <td style="width:150px;">2012.09-2016.07</td>
                     <td style="width:250px;">重庆大学</td>
                     <td>计算机科学与技术</td>
                 </tr>
@@ -201,7 +206,7 @@
                     <tr>
                         <td class="project-sub-title" valign="top">项目描述:</td>
                         <td class="item-content">
-                           项目分为编辑栏和预览栏，用户在编辑栏增删自己条目，右边预览栏会同步更新数据，最后点击预览按钮可以查看完成的简历
+                           项目分为编辑栏和预览栏，用户在编辑栏增删自己条目，右边预览栏会同步更新数据，最后点击预览按钮可以查看完成的简历,整个项目分为3大模块，顶部导航栏，左边编辑器，右边预览栏，创建一个store，里面存放state和mutation,在mutation中对state进行修改更新，而各个组件通过emit函数触发mutation,实现对state修改
                         </td>
                     </tr>
                     <tr>
@@ -233,19 +238,14 @@
                     <tr>
                         <td class="project-sub-title" valign="top">项目描述:</td>
                         <td class="item-content">
-                            利用node的几个模块，向目标URL链家成交信息页面发送请求拿回页面的html代码，然后用cheerio解析拿到相应的房屋信息经过布局返回给客户端
+                            利用node的superagent模块，向目标URL链家成交信息页面发送请求拿回页面的html代码，然后用cheerio解析，cheerio为服务器特别定制的，快速、灵活、实施的jQuery核心实现，Cheerio 封装了兼容的htmlparser。Cheerio 几乎能够解析任何的 HTML 和 XML document，拿到相应的房屋信息经过布局返回给客户端
                         </td>
                     </tr>
                     <tr>
                         <td class="project-sub-title" valign="top">使用技术:</td>
                         <td class="item-content">node模块，express，superagent，cheerio</td>
                     </tr>
-                    <tr>
-                        <td class="project-sub-title" valign="top">项目收获:</td>
-                        <td class="item-content">
-                          对node模块认识更加深刻，对dom解析更加深刻
-                        </td>
-                    </tr>
+
                     <tr>
                         <td class="project-sub-title" valign="top">预览地址:</td>
                         <td class="item-content">
@@ -259,18 +259,13 @@
                     </tr>
                     <tr>
                         <td class="project-sub-title" valign="top">项目描述:</td>
-                        <td class="item-content">在控制台可以和机器人以问答的方式聊天，机器人会对你的问题进行相应回答</td>
+                        <td class="item-content">采用commander模块 初始化命令行参数对象，直接获得命令行输入，然后利用superagent处理服务端/客户端的http请求，其内置了很多简单api比如get，post请求，end函数发送，设置请求头，链式调用等，请求参数是有道api，最终将模块发布到npm上供大家下载使用</td>
                     </tr>
                     <tr>
                         <td class="project-sub-title" valign="top">使用技术:</td>
                         <td class="item-content">node模块，commander，superagent，cli-table2</td>
                     </tr>
-                    <tr>
-                        <td class="project-sub-title" valign="top">项目收获:</td>
-                        <td class="item-content">
-                            熟悉了node的一些常见请求模块，知道如何发布npm模块，安装npm模块
-                        </td>
-                    </tr>
+
                     <tr>
                         <td class="project-sub-title" valign="top">github预览地址:</td>
                         <td class="item-content">
@@ -284,18 +279,13 @@
                     </tr>
                     <tr>
                         <td class="project-sub-title" valign="top">项目描述:</td>
-                        <td class="item-content">用户输入目标城市，页面就会显示该城市近3天以来天气</td>
+                        <td class="item-content">用户输入目标城市，利用ajax给后台接口api发送请求,并且以jsonp跨域的方式，给后端一个回掉函数约定，在客户端实现回掉函数，主要是对返回dom进行解析，拿到自己想要的元素进行渲染，最后页面就会显示该城市近3天以来天气</td>
                     </tr>
                     <tr>
                         <td class="project-sub-title" valign="top">使用技术:</td>
                         <td class="item-content">Jquery,Ajax,Jsonp</td>
                     </tr>
-                    <tr>
-                        <td class="project-sub-title" valign="top">项目收获:</td>
-                        <td class="item-content">
-                            知道如何利用ajax给后台接口api发送请求，以及拿到数据后如何根据页面dom结构解析处理
-                        </td>
-                    </tr>
+
                     <tr>
                         <td class="project-sub-title" valign="top">预览地址:</td>
                         <td class="item-content">
@@ -309,18 +299,13 @@
                     </tr>
                     <tr>
                         <td class="project-sub-title" valign="top">项目描述:</td>
-                        <td class="item-content">一个宣传电影的网站，用到了一些网站常用效果</td>
+                        <td class="item-content">网站最开始采用4张图片以轮播的形式铺满整个屏幕，当往下滚动的时候右下角出现回到顶部的按钮，在剧照方面采用加载更多，当用户点击时才向后台以ajax的形式发送请求，参数为一个标记，让后台知道我们请求的是哪一部分数据</td>
                     </tr>
                     <tr>
                         <td class="project-sub-title" valign="top">使用技术:</td>
                         <td class="item-content">轮播，加载更多，回到顶部</td>
                     </tr>
-                    <tr>
-                        <td class="project-sub-title" valign="top">项目收获:</td>
-                        <td class="item-content">
-                           了解到完成一个完整页面的制作流程，尤其是布局方面知识，其中用到了许多前端常见效果，为页面增色不少
-                        </td>
-                    </tr>
+
                     <tr>
                         <td class="project-sub-title" valign="top">预览地址:</td>
                         <td class="item-content">
@@ -334,18 +319,13 @@
                     </tr>
                     <tr>
                         <td class="project-sub-title" valign="top">项目描述:</td>
-                        <td class="item-content">懒加载组件，轮播组件，模态框组件</td>
+                        <td class="item-content">用面向对象的思想去封装一个组件，可扩展，易维护，高内聚，低耦合，使得某个模块改动不影响其他模块，易于快速定位bug,复用性高</td>
                     </tr>
                     <tr>
                         <td class="project-sub-title" valign="top">使用技术:</td>
-                        <td class="item-content">面向对象，jquery</td>
+                        <td class="item-content">懒加载组件，轮播组件，模态框组件</td>
                     </tr>
-                    <tr>
-                        <td class="project-sub-title" valign="top">项目收获:</td>
-                        <td class="item-content">
-                            学会运用面向对象的思想去封装一个组件
-                        </td>
-                    </tr>
+
                     <tr>
                         <td class="project-sub-title" valign="top">预览地址:</td>
                         <td class="item-content">
@@ -365,7 +345,7 @@
             <ul>
                 <li>性格乐观开朗，感染力强，能够带动团队氛围</li>
                 <li>对技术感兴趣，广泛关注行业知识、动向，喜欢钻研技术原理</li>
-                <li>表达能力强，热衷于技术分享，在公司负责初级技术培训工作</li>
+                <li>表达能力强，热衷于技术分享</li>
             </ul>
         </section>
     </section>
